@@ -9,7 +9,7 @@
         this.titulolibro = titulolibro;
         this.autorlibro = autorlibro;
         this.numerodepaginas = numerodepaginas;
-    }
+    } // metodo get 
 
     public String getTitulolibro() {
         return titulolibro;
@@ -23,5 +23,5 @@
         return numerodepaginas;
     }
 }
-
+// constante(O(1))
 
