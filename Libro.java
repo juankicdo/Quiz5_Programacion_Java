@@ -3,7 +3,7 @@
     private final String titulolibro;
     private final String autorlibro;
     private final int numerodepaginas;
-    // constante(O(1))
+    // Complejidad temporal constante(O(1))
     // Constructor
     public Libro(String titulolibro, String autorlibro, int numerodepaginas) {
         this.titulolibro = titulolibro;
