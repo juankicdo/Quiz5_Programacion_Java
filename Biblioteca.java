@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class Biblioteca {
-    private final LinkedList<Libro> librosDisponibles;
+LinkedList<Libro> librosDisponibles;
 
     public Biblioteca() {
         librosDisponibles = new LinkedList<>();
