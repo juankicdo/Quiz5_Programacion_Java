@@ -4,7 +4,7 @@ public class Principal {
             Biblioteca bibliotecaKonradLorenz = new Biblioteca();
 
             // Crear y registrar los libros en la biblioteca
-            // constante (O(1))
+            // Complejidad temporal constante (O(1))
             bibliotecaKonradLorenz.registrarLibro("Cien años de soledad", "Gabriel García Márquez", 496);
             bibliotecaKonradLorenz.registrarLibro("El código Da Vinci", "Dan Brown", 656);
             bibliotecaKonradLorenz.registrarLibro("1984", "George Orwell", 326);
