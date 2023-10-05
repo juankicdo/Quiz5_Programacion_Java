@@ -6,13 +6,13 @@ LinkedList<Libro> librosDisponibles;
     public Biblioteca() {
         librosDisponibles = new LinkedList<>();
     }
-
+    
     // Método para registrar un libro
     public void registrarLibro(String titulo, String autor, int numPaginas) {
         Libro nuevoLibro = new Libro(titulo, autor, numPaginas);
         librosDisponibles.add(nuevoLibro);
     }
-
+    // complejidad constante (O(1))
     // Método para mostrar todos los libros disponibles
     public void mostrarLibrosDisponibles() {
         for (Libro libro : librosDisponibles) {
